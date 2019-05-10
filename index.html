@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- CSS próprio -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Bootstrap Academy</title>
+    
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="img/bootstrap.png" width="30" height="30" class="d-inline-block align-top" alt="">
+            Bootstrap Academy
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Nossos Cursos
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Professores</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Fale Conosco <span class="sr-only">(current)</span></a>
+            </li>
+            
+          </ul>
+          <nav class="navbar navbar-dark bg-dark">
+            <form class="form-inline">
+              <button id="btnnavbar" class="btn btn-outline-light" type="button">Criar conta</button>
+              <button class="btn btn-outline-light" type="button">Entrar</button>
+            </form>
+          </nav>
+        </div>
+    </nav>
+    <br/><br/><br/> 
+  
+
+        <div class="container col-5">      
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="cNome">Nome</label>
+                        <input type="text" class="form-control" id="cNome" placeholder="Nome">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="cSobrenome">Sobrenome</label>
+                        <input type="text" class="form-control" id="cSobrenome" placeholder="Sobrenome">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>Motivo do contato</label>
+                    <select class="form-control">
+                        <option disabled selected>Selecionar motivo</option>
+                        <option>Reclamação</option>
+                        <option>Dúvida</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Mensagem</label>
+                    <textarea class="form-control" rows="3"></textarea>
+                </div>
+                <button class="btn btn-primary" type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div id="footer">
+            <p class="text-center"> © Programação para WEB 1 - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+  </body>
+</html>
